@@ -1,0 +1,32 @@
+.section-title {
+}
+
+.section-title-info {
+  padding-bottom: 8%;
+}
+
+.content-box {
+  width: 100%;
+  position: relative;
+  margin-top: 20%;
+}
+
+.content-box img {
+  margin: auto;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+}
+
+.content-box span {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  display: block;
+}

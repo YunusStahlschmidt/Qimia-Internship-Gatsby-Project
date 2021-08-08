@@ -1,0 +1,34 @@
+.contact-title {
+  color: #fbaf19;
+  padding-bottom: 5%;
+}
+
+.contact-col-1 {
+  padding-right: 10%;
+}
+
+.contact-col-2 {
+  padding-left: 10%;
+}
+
+.contact-form {
+  justify-content: center;
+}
+
+.contact-form-title {
+  color: #fbaf19;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-inputs {
+  margin-bottom: 3%;
+}
+.from-submit {
+  background-color: #0066cc;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  margin-top: 10px;
+}
