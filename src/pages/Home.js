@@ -8,7 +8,7 @@ import { Image, Text } from "react-bootstrap"
 
 export default function HomeSection() {
     return (
-      <div className="container">
+      <div className="container ">
           <div className="row">
             <div className="col-md-4">
               <span className="section-info-header">

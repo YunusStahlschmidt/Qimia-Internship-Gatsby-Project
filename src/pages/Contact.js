@@ -11,18 +11,18 @@ export default function Contact() {
                 <Col md={6}>
                     <span className="section-info-header">
                         So Simple,
-                    </span>
-                    <span className="section-info-header">
+                        <br/>
                         So Powerful!
                     </span>
                     <span className="section-info-text">
                         Got a question? We are here to help!
+                        <br/>
                         Fill up the form to get in touch with us on your enquiries.
                     </span>
                 </Col>
                 <Col md={6}>
                     <h2 className="contact-form-title">CONTACT US</h2>
-                    <form name="contact" method="POST" data-netlify="true">
+                    {/* <form name="contact" method="POST" data-netlify="true">
                         <input type="hidden" name="form-name" value="contact" />
                         <div className="form-inputs">
                             <input type="text" className="form-control" id="name" name="name" placeholder="Name"  required/>
@@ -31,11 +31,26 @@ export default function Contact() {
                             <input type="email" className="form-control" id="email" name="email" placeholder="Email"  required/>
                         </div>                                                              
                         <div className="form-inputs">
-                            <textarea className="form-control" type="textarea" name="message" id="message" maxLength="6000" rows="7" placeholder="Your message"></textarea>
+                            <textarea className="form-control" type="textarea" name="message" id="message" maxLength="6000" rows="2" placeholder="Your message"></textarea>
                         </div> 
                         <div className="">
                             <button type="submit" className="from-submit">Send</button>  
                         </div>
+                    </form> */}
+                    <form name="contact" method="post">
+                        <input type="hidden" name="form-name" value="contact" />
+                        <p>
+                            <input type="text" className="form-control" name="name" placeholder="Name"  required/>
+                        </p>
+                        <p>
+                            <input type="email" className="form-control" name="email" placeholder="Email"  required/>
+                        </p>
+                        <p>
+                            <textarea className="form-control" type="textarea" name="message" maxLength="6000" rows="2" placeholder="Your message"></textarea>
+                        </p>
+                        <p>
+                            <button type="submit">Send</button>
+                        </p>
                     </form>
                 </Col>
             </Row>
