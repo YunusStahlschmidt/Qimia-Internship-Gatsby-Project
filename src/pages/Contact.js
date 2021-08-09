@@ -22,7 +22,8 @@ export default function Contact() {
                 </Col>
                 <Col md={6}>
                     <h2 className="contact-form-title">CONTACT US</h2>
-                    <form role="form" method="post" id="reused_form" className="contact-form">
+                    <form name="contact" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact" />
                         <div className="form-inputs">
                             <input type="text" className="form-control" id="name" name="name" placeholder="Name"  required/>
                         </div>
