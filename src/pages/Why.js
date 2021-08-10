@@ -49,15 +49,9 @@ export default function Why({ data }) {
     )
 }
 
-// export const query = graphql`
-// query MyQuery {
-//     dataJson {
-//       why {
-//         description
-//         image
-//         title
-//         info
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+query MyQuery {
+    dataJson
+    }
+  }
+`
