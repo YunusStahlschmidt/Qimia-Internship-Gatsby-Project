@@ -11,7 +11,6 @@ import { Row, Col, Image } from "react-bootstrap"
 
 export default function Why({ data }) {
     console.log(data)
-    // const { title } = data
 
     return (
         <div className="container">
@@ -49,9 +48,3 @@ export default function Why({ data }) {
     )
 }
 
-export const query = graphql`
-query MyQuery {
-    dataJson
-    }
-  }
-`
