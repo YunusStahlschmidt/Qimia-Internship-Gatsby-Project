@@ -22,22 +22,7 @@ export default function Contact() {
                 </Col>
                 <Col md={6}>
                     <h2 className="contact-form-title">CONTACT US</h2>
-                    {/* <form name="contact" method="POST" data-netlify="true">
-                        <input type="hidden" name="form-name" value="contact" />
-                        <div className="form-inputs">
-                            <input type="text" className="form-control" id="name" name="name" placeholder="Name"  required/>
-                        </div>
-                        <div className="form-inputs">                                                        
-                            <input type="email" className="form-control" id="email" name="email" placeholder="Email"  required/>
-                        </div>                                                              
-                        <div className="form-inputs">
-                            <textarea className="form-control" type="textarea" name="message" id="message" maxLength="6000" rows="2" placeholder="Your message"></textarea>
-                        </div> 
-                        <div className="">
-                            <button type="submit" className="from-submit">Send</button>  
-                        </div>
-                    </form> */}
-                    <form name="contact" method="post">
+                    <form name="contact" method="post" className="contact-form">
                         <input type="hidden" name="form-name" value="contact" />
                         <p>
                             <input type="text" className="form-control" name="name" placeholder="Name"  required/>
@@ -48,8 +33,8 @@ export default function Contact() {
                         <p>
                             <textarea className="form-control" type="textarea" name="message" maxLength="6000" rows="2" placeholder="Your message"></textarea>
                         </p>
-                        <p>
-                            <button type="submit">Send</button>
+                        <p className="form-submit-container">
+                            <button type="submit" className="form-submit">Send</button>
                         </p>
                     </form>
                 </Col>

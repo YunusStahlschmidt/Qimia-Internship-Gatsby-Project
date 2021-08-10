@@ -1,0 +1,17 @@
+.nav-button {
+  border-radius: 20px;
+}
+
+.nav-button.active {
+  background-color: #fbaf19;
+  color: white;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 770.98px) {
+  .nav-button.active {
+    background-color: #fbaf19;
+    color: white;
+    width: 10%;
+  }
+}

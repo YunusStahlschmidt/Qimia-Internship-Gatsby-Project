@@ -14,10 +14,10 @@ export default function Product() {
                 <Col md={8}>
                     <Image src={InfoImg} alt="InfoImg" className="info-img" fluid/>
                 </Col>
-                <Col md={4} className="info-col">
+                <Col md={3} className="info-col">
                     <Row className="info-row">
                         <Col className="checkdot">
-                            <Image src={CheckDot}  alt="CheckDot" fluid/>
+                            <Image src={CheckDot} alt="CheckDot" fluid/>
                             {/* <CheckIcon className="checkdot-icon" /> */}
                         </Col>
                         <Col>
@@ -26,7 +26,7 @@ export default function Product() {
                     </Row>
                     <Row className="info-row">
                         <Col className="checkdot">
-                            <Image src={CheckDot}  alt="CheckDot" fluid/>
+                            <Image src={CheckDot} alt="CheckDot" fluid/>
                             {/* <CheckIcon className="checkdot-icon" /> */}
                         </Col>
                         <Col >
@@ -34,8 +34,8 @@ export default function Product() {
                         </Col>
                     </Row>
                     <Row className="info-row">
-                    <Col className="checkdot">
-                            <Image src={CheckDot}  alt="CheckDot" fluid/>
+                        <Col className="checkdot">
+                            <Image src={CheckDot} alt="CheckDot" fluid/>
                             {/* <CheckIcon className="checkdot-icon" /> */}
                         </Col>
                         <Col>

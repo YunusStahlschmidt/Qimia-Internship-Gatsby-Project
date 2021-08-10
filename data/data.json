@@ -1,14 +1,14 @@
-{
-  "why": {
+[
+  {
     "title": "Why",
     "info": "hello",
     "image": "./src/images/Fast and Scalable.png",
     "description": "Fast And Scalable"
   },
-  "features": {
+  {
     "title": "Why",
     "info": "123",
     "image": "./src/images/Group Copy.png",
     "description": "Optimization of the Vehicle Routing domain"
   }
-}
+]
