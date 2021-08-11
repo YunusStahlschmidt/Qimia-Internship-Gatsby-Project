@@ -1,17 +1,23 @@
+.ms-auto {
+  margin-right: 10%;
+}
+
 .nav-button {
   border-radius: 20px;
+  color: black;
+  font-weight: 500;
+  margin-right: 5%;
 }
 
 .nav-button.active {
   background-color: #fbaf19;
-  color: white;
+  color: black !important;
   border-radius: 20px;
 }
 
 @media only screen and (max-width: 770.98px) {
-  .nav-button.active {
-    background-color: #fbaf19;
-    color: white;
-    width: 10%;
+  .nav-button {
+    width: 25%;
+    text-align: center;
   }
 }

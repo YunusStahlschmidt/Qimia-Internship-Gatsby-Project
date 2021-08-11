@@ -1,24 +1,42 @@
 import React from 'react'
-import PathImage from '../images/Path.png'
+import { useStaticQuery, graphql } from 'gatsby';
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import LaptopImage from '../images/Promo Mockup.png'
 import "../styles/home.css"
-import { Image, Text } from "react-bootstrap"
 
 
+export default function Home() {
 
-export default function HomeSection() {
+    const data = useStaticQuery(graphql`query HomeQuery {
+      dataJson {
+        home {
+          section_header
+          section_info
+          img {
+            childrenImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+      }
+    }`
+    )
+
+	const home = data.dataJson.home;
+
     return (
       <div className="container ">
           <div className="row">
             <div className="col-md-4">
               <span className="section-info-header">
-                Powerful Logistics Platform!
+                {home.section_header}
               </span>
               <span className="section-info-text">
-                QLogistics is the next generation logistics platform.
+                {home.section_info}
               </span>
             </div>
             <div className="col-md-8 iframe-container">
+			  {/* <GatsbyImage image={getImage(home.img)} alt="YouTube Player" className="laptop-image" /> */}
               <img className="laptop-image" src={LaptopImage} alt="LaptopImage" fluid />
               <iframe 
                 className="video-iframe" 
@@ -26,7 +44,7 @@ export default function HomeSection() {
                 title="YouTube video player" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen 
+                allowFullScreen 
               />
             </div>
           </div>

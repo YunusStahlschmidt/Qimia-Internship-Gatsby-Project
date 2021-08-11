@@ -19,11 +19,15 @@
 @media only screen and (min-width: 766.98px) and (max-width: 991.98px) {
   .video-iframe {
     width: 75%;
-    height: 70%;
+    height: 80%;
     position: absolute;
-    bottom: 62%;
+    bottom: 52%;
     left: 50%;
     transform: translate(-50%, 50%);
     text-align: center;
+  }
+
+  .iframe-container {
+    margin-top: 50px;
   }
 }

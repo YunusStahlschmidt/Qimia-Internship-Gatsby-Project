@@ -7,21 +7,20 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `./data`,
+        path: `./src/data`,
       },
-    },
-    `gatsby-transformer-sharp`,
+    }, 
     {
       resolve: `gatsby-source-filesystem`,
       options: { 
         name: `images`,    
-        // path: path.join(__dirname, `src`, `images`),
         path: `./src/images`
       },
     },

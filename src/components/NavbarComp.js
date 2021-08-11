@@ -5,7 +5,21 @@ import Logo from '../images/Logo.png'
 import { Navbar, Nav, Container, Image, Button } from "react-bootstrap"
 import "../styles/navbar.css"
 
+// TODO: smooth anchor link
+
 export default function NavbarComp() {
+
+    const data = useStaticQuery(graphql`query NavQuery {
+        dataJson {
+            navlinks {
+            name
+            link
+            }
+        }
+    }`
+    )
+
+    const navlinks = data.dataJson.navlinks;
 
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
@@ -16,11 +30,14 @@ export default function NavbarComp() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link className="nav-button" href="#home">Home</Nav.Link>
+                        {navlinks.map(navlink => (
+                            <Nav.Link className="nav-button" href={navlink.link}>{navlink.name}</Nav.Link>
+                        ))}
+                        {/* <Nav.Link className="nav-button" href="#home">Home</Nav.Link>
                         <Nav.Link className="nav-button" href="#why">Why</Nav.Link>
                         <Nav.Link className="nav-button" href="#features">Features</Nav.Link>
                         <Nav.Link className="nav-button" href="#product">Product</Nav.Link>
-                        <Nav.Link className="nav-button" href="#contact">Contact</Nav.Link>
+                        <Nav.Link className="nav-button" href="#contact">Contact</Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

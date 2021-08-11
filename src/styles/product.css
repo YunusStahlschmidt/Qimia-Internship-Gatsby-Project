@@ -8,7 +8,6 @@
 
 .info-img {
   width: 100%;
-  /* margin-top: 5%; */
 }
 
 .info-row {
@@ -19,27 +18,15 @@
   color: #fbaf19;
   margin-left: -80%;
   margin-top: 20px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 766.98px) and (max-width: 991.98px) {
+  .info-row p {
+    margin-left: -45%;
+  }
 }
 
 .info-col {
   margin: auto;
-}
-
-.checkdot {
-  /* width: 100%; */
-  /* margin: 5%; */
-  position: relative;
-  /* justify-content: center; */
-}
-
-.checkdot-icon {
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  text-align: center;
-  color: black;
 }

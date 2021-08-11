@@ -1,0 +1,98 @@
+{
+  "navlinks":[
+    { 
+      "name": "Home",
+      "link": "#home"
+    },
+    { 
+      "name": "Why",
+      "link": "#why"
+    },
+    { 
+      "name": "Features",
+      "link": "#features"
+    },
+    { 
+      "name": "Product",
+      "link": "#product"
+    },
+    { 
+      "name": "Contact",
+      "link": "#contact"
+    }
+  ],
+  "home":{
+    "section-header": "Powerful Logistics Platform!",
+    "section-info": "QLogistics is the next generation logistics platform.",
+    "img": "../images/Promo Mockup.png"
+  },
+  "why":{
+    "title": "Why",
+    "logo": "../images/Logo.png",
+    "items":[
+      {
+        "img": "../images/Fast and Scalable.png",
+        "info": "Fast and Scalable"
+      },
+      {
+        "img": "../images/Easy to Integrate.png",
+        "info": "Easy to Integrate"
+      },
+      {
+        "img": "../images/Practical Features.png",
+        "info": "Practical Features"
+      }
+    ]
+  },
+  "features":{
+    "title": "Features",
+    "title-info": "There are lots of reasons to have QLogistics!",
+    "items":[
+      {
+        "img": "../images/Group Copy.png",
+        "info": "Optimization of the Vehicle Routing domain"
+      },
+      {
+        "img": "../images/optimization.png",
+        "info": "Up to 30.000 tasks within minutes"
+      },
+      {
+        "img": "../images/Group 11.png",
+        "info": "Live Driver Tracking"
+      },
+      {
+        "img": "../images/Group 7.png",
+        "info": "Handling Capacities, time windows, priorities"
+      },
+      {
+        "img": "../images/Group 21.png",
+        "info": "Pickup and Delivery Problems (e.g. ride sharing)"
+      },
+      {
+        "img": "../images/Group.png",
+        "info": "Instant Address Changes"
+      }
+    ]
+  },
+  "product":{
+    "section-header": "Product",
+    "section-info": "Easy to use dashboard supporting every step of delivery process.",
+    "img": "../images/Group 2.png",
+    "items":[
+      "Operator, Driver and Customer Interfaces",
+      "Realtime tracking of the delivery cars" ,
+      "Developed for iOS and Android"
+    ]
+  },
+  "contact":{
+    "title": "Contact",
+    "section-header-1":"So Simple,",
+    "section-header-2":"So Powerful!",
+    "section-info-1": "Got a question? We are here to help!",
+    "section-info-2": "Fill up the form to get in touch with us on your enquiries."
+  },
+  "footer":{
+    "img": "../images/Footer Logo.png",
+    "copyright": "©2019 Copyright Qimia GmbH"
+  }
+}

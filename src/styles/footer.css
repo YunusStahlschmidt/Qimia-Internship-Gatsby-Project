@@ -1,22 +1,10 @@
 .footer {
   background-color: #1c2430;
-  height: auto;
   padding-top: 1%;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
   border-color: #fbaf19;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-container {
-  float: left;
-}
-
-.footer-copyright {
-  float: right;
+.footer p {
   color: white;
 }
