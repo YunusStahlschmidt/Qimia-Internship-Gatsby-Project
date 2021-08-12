@@ -8,16 +8,16 @@ import "../styles/footer.css"
 export default function FooterComp() {
 
     const data = useStaticQuery(graphql`query FooterQuery {
-        dataJson {
-          footer {
-            img {
-              childrenImageSharp {
-                gatsbyImageData
-              }
+      dataJson {
+        footer {
+          copyright
+          img {
+            childrenImageSharp {
+              gatsbyImageData
             }
-            copyright
           }
         }
+      }
       }
       
       `

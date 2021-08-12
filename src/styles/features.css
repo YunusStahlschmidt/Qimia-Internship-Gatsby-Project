@@ -2,14 +2,12 @@
 }
 
 .features-title-info {
-}
-
-.features-img {
-  /* width: 30%; */
+  margin-bottom: -100px;
 }
 
 .features-span {
   color: black;
   padding: 15%;
   padding-top: 75px;
+  padding-bottom: 0%;
 }

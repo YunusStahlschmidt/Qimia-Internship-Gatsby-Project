@@ -4,12 +4,14 @@
 
 .nav-button {
   border-radius: 20px;
-  color: black;
+  color: white;
+  background-color: transparent;
   font-weight: 500;
   margin-right: 5%;
+  text-decoration: none;
 }
 
-.nav-button.active {
+.nav-link.active {
   background-color: #fbaf19;
   color: black !important;
   border-radius: 20px;

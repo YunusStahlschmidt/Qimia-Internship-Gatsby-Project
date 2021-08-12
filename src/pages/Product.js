@@ -25,7 +25,6 @@ export default function Product() {
 
     const product = data.dataJson.product;
     const items = product.items;
-    console.log(product.img)
 
     return (
         <div className="container">

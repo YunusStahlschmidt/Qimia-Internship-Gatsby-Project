@@ -36,7 +36,7 @@ export default function Home() {
               </span>
             </div>
             <div className="col-md-8 iframe-container">
-			  {/* <GatsbyImage image={getImage(home.img)} alt="YouTube Player" className="laptop-image" /> */}
+			        {/* <GatsbyImage image={getImage(home.img)} alt="YouTube Player" className="laptop-image" /> */}
               <img className="laptop-image" src={LaptopImage} alt="LaptopImage" fluid />
               <iframe 
                 className="video-iframe" 

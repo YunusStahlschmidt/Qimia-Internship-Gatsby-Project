@@ -21,11 +21,11 @@
   font-weight: bold;
 }
 
-@media only screen and (min-width: 766.98px) and (max-width: 991.98px) {
+/* @media only screen and (min-width: 766.98px) and (max-width: 991.98px) {
   .info-row p {
     margin-left: -45%;
   }
-}
+} */
 
 .info-col {
   margin: auto;
